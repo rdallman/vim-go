@@ -473,6 +473,10 @@ CTRL-t
 
     If [!] is not given the first error is jumped to.
 
+                                                              *:GoExtractFunc*
+:GoExtractFunc [func_name]
+
+    Extract the code under the cursor to a new function.
 
                                                                 *:GoGuruScope*
 :GoGuruScope [pattern] [pattern2] ... [patternN]

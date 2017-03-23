@@ -1,3 +1,6 @@
+" -- godoctor
+command! -range=% -nargs=+ GoExtractFunc call go#godoctor#Run(<count>, 'extract', <f-args>)
+
 " -- gorename
 command! -nargs=? GoRename call go#rename#Rename(<bang>0,<f-args>)
 

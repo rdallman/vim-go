@@ -21,6 +21,7 @@ let s:packages = [
       \ "github.com/fatih/gomodifytags",
       \ "github.com/zmb3/gogetdoc",
       \ "github.com/josharian/impl",
+      \ "github.com/godoctor/godoctor",
       \ ]
 
 " These commands are available on any filetypes
